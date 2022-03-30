@@ -13,9 +13,9 @@ const App = () => {
   <div className='App'>
     <Navbar students={students}/>
     <Routes>
-      {/*Any "page" of my readt app can be defined as a Route within my Routes here*/}
-      <Route children path='/' element={<Home />} />
-      <Route children path='/Shop' element={<Shop students={students} setStudents={setStudents}/>} />
+      {/*Any "page" of my react app can be defined as a Route within my Routes here*/}
+      <Route children path='/' element={<Home students={students} setStudents={setStudents} />}/>
+      <Route children path='/Shop' element={<Shop />}/>
     </Routes>
   </div>
   );

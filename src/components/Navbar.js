@@ -14,7 +14,7 @@ const Navbar = props => {
                     <Link className="nav-link" to="/">Home</Link>
                 </li>
                 <li className="nav-item active">
-                    <Link className="nav-link" to="/shop">Shop</Link>
+                    <Link className="nav-link" to="/Shop">Shop</Link>
                 </li>
             </ul>
             <ul className='nav navbar-nav ml-auto'>
